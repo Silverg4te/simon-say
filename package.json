@@ -1,1 +1,39 @@
-{"name": "npx-is-cool", "version": "0.0.0", "bin": "./index.js"}
+{
+  "name": "simon-says",
+  "version": "0.0.0",
+  "description": "testing npx library",
+  "keywords": [
+    "cow",
+    "simon says"
+  ],
+  "author": {
+    "name": "Carl Chan",
+    "email": "carlking1st@yahoo.com",
+    "url": "https://github.com/SilverG4te/"
+  },
+  "license": "MIT",
+  "main": "./index",
+  "bin": {
+    "simonsay": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib/"
+  ],
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "string-width": "~2.1.1",
+    "strip-eof": "^1.0.0",
+    "yargs": "15.4.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "15.0.0",
+    "@rollup/plugin-node-resolve": "9.0.0",
+    "execa": "4.0.3",
+    "rollup": "2.26.5",
+    "rollup-plugin-string": "3.0.0",
+    "tap-dot": "2.0.0",
+    "tape": "5.0.1"
+  }
+}
